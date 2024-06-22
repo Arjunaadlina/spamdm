@@ -8,12 +8,14 @@ var event = new InputEvent(`input`,{
 });
 window.InputEvent = window.Event || window.InputEvent;
 
-var text =  document.querySelector(" div._acrb div._ab8w._ab94._ab99._ab9f._ab9m._ab9o._abbh._abcm textarea");
+var text =  document.querySelector(" div._acrb div._ab8w._ab94._ab99._ab9f._ab9m._ab9o._abbh._abcm textarea"); 
+//edit menyesuaikan class di ig, karena terus berubah
 
     for (var i=1;i<serangan;i++) {
         text.innerHTML == pesan;
         text.dispatchEvent(event);
         document.querySelector("div._ab8w._ab94._ab99._ab9f._ab9m._ab9p._abbi._abcm button").click();
+        //edit menyesuaikan class di ig, karena terus berubah juga
     }
 //zhiend
 
